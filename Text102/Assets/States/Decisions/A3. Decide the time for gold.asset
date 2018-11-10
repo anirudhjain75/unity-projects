@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9b3a6d4eb2a45bd88f26b6a264a2dc, type: 3}
+  m_Name: A3. Decide the time for gold
+  m_EditorClassIdentifier: 
+  storyText: 'A3. Now you''re planning to rob the bank of its gold and as gold is
+    heavy and not much bulky. you plan on choosing little stoage material like a few
+    bag or suitcases to stuff in gold. Now you have to choose a time to rob the bank
+
+
+    Which time do you wanna rob the bank
+
+    1. Night
+
+    2. Day'
+  nextStates:
+  - {fileID: 11400000, guid: ae607b4bbb5524317904c97b273b392d, type: 2}
+  - {fileID: 11400000, guid: f9c40397142014ced87033cb0be877e3, type: 2}
